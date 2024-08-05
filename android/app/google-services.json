@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603035276755",
+    "project_id": "nearbyplaces-787dc",
+    "storage_bucket": "nearbyplaces-787dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603035276755:android:a7956b28af111b3a324b26",
+        "android_client_info": {
+          "package_name": "com.mycompany.compasstrip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUb6bHrYNYpok33XrXFNjY6nF7FNf3eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603035276755:android:00945f314f2b6aca324b26",
+        "android_client_info": {
+          "package_name": "com.mycompany.copy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXUb6bHrYNYpok33XrXFNjY6nF7FNf3eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
