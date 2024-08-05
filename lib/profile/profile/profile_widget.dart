@@ -325,7 +325,7 @@ class _ProfileWidgetState extends State<ProfileWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                1.0, 0.0),
+                                                                2.0, 0.0),
                                                         child: Text(
                                                           'Edit profile',
                                                           textAlign:
