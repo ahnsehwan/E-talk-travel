@@ -1,3 +1,4 @@
+import '/flutter_flow/flutter_flow_google_map.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'bikerental_widget.dart' show BikerentalWidget;
 import 'package:flutter/material.dart';
@@ -14,6 +15,9 @@ class BikerentalModel extends FlutterFlowModel<BikerentalWidget> {
           pageViewController!.page != null
       ? pageViewController!.page!.round()
       : 0;
+  // State field(s) for GoogleMap widget.
+  LatLng? googleMapsCenter;
+  final googleMapsController = Completer<GoogleMapController>();
 
   @override
   void initState(BuildContext context) {}

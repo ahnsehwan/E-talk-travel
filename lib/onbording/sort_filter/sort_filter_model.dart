@@ -1,3 +1,4 @@
+import '/flutter_flow/flutter_flow_google_map.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'sort_filter_widget.dart' show SortFilterWidget;
 import 'package:flutter/material.dart';
@@ -14,6 +15,9 @@ class SortFilterModel extends FlutterFlowModel<SortFilterWidget> {
   FocusNode? textFieldFocusNode2;
   TextEditingController? textController2;
   String? Function(BuildContext, String?)? textController2Validator;
+  // State field(s) for GoogleMap widget.
+  LatLng? googleMapsCenter;
+  final googleMapsController = Completer<GoogleMapController>();
 
   @override
   void initState(BuildContext context) {}

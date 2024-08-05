@@ -1,3 +1,4 @@
+import '/flutter_flow/flutter_flow_google_map.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -41,6 +42,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
+        resizeToAvoidBottomInset: false,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
           backgroundColor: const Color(0xFF58B279),
@@ -209,6 +211,26 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       ),
                     ),
                   ),
+                ),
+              ),
+              Expanded(
+                child: FlutterFlowGoogleMap(
+                  controller: _model.googleMapsController,
+                  onCameraIdle: (latLng) => _model.googleMapsCenter = latLng,
+                  initialLocation: _model.googleMapsCenter ??=
+                      const LatLng(37.5729, 126.9769),
+                  markerColor: GoogleMarkerColor.violet,
+                  mapType: MapType.normal,
+                  style: GoogleMapStyle.standard,
+                  initialZoom: 14.0,
+                  allowInteraction: true,
+                  allowZoom: true,
+                  showZoomControls: true,
+                  showLocation: true,
+                  showCompass: false,
+                  showMapToolbar: false,
+                  showTraffic: false,
+                  centerMapOnMarkerTap: true,
                 ),
               ),
             ],
