@@ -5,8 +5,6 @@ export '/profile/profile/profile_widget.dart' show ProfileWidget;
 export '/onbording/splash/splash_widget.dart' show SplashWidget;
 export '/onbording/signin/signin_widget.dart' show SigninWidget;
 export '/nav_bar/rent/rent_widget.dart' show RentWidget;
-export '/education/education_place/education_place_widget.dart'
-    show EducationPlaceWidget;
 export '/onbording/sort_filter/sort_filter_widget.dart' show SortFilterWidget;
 export '/onbording/direction_result/direction_result_widget.dart'
     show DirectionResultWidget;

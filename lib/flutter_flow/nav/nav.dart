@@ -118,11 +118,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               params.isEmpty ? const NavBarPage(initialPage: 'Rent') : const RentWidget(),
         ),
         FFRoute(
-          name: 'educationPlace',
-          path: '/educationPlace',
-          builder: (context, params) => const EducationPlaceWidget(),
-        ),
-        FFRoute(
           name: 'sort_filter',
           path: '/sortFilter',
           builder: (context, params) => const SortFilterWidget(),
